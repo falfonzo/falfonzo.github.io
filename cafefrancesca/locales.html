@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cafe Francesca</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+		crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!-- Encabezado de sitio -->
+	<header>
+		<div><a href="index.html"><h1 style="font-family: 'Shadows Into Light', cursive; font-size:4rem;">Cafe Francesca</h1></a></div>
+		<div class="topnav" id="myTopnav">
+			<a href="index.html">Inicio</a>
+			<a href="locales.html">Locales</a>
+			<a href="menu.html">Menu</a>
+			<a href="contacto.html">Contacto</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+		</div>
+		<script>
+		  function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+			  x.className += " responsive";
+			} else {
+			  x.className = "topnav";
+			}
+		  }
+		</script>
+	</header>
+	<!-- Principal de sitio -->
+	<h3>Locales</h3>
+
+	<article>
+		<h5>Local Belgrano</h5>
+		<h5>Telf: 11-2345-6789</h5>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.6378231230706!2d-58.460272984814864!3d-34.56272438047021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d4700f074f%3A0x7dc83b852e98f0fe!2sMercado%20de%20Belgrano!5e0!3m2!1ses!2sar!4v1635051143900!5m2!1ses!2sar" width= "300" height="300" style="border:0;" allowfullscreen="" loading="eager"></iframe><br>
+		<img src="css/m_belgrano.jpg" alt="Mercado de Belgrano" width="300" height="300">
+	</article>
+	<br>
+	<article>
+		<h5>Local Villa Crespo</h5>
+		<h5>Telf: 11-2345-6780</h5>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.4085630730997!2d-58.442560484813974!3d-34.59382888046208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5f52e26a67b%3A0x7ce12d5a2a7ed6b3!2sMercat%20Villa%20Crespo!5e0!3m2!1ses!2sar!4v1635051203504!5m2!1ses!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br>
+		<img src="css/m_villacrespo.jpg" alt="Mercado de Villa Crespo" width="300" height="300">
+	</article>
+	<article>
+		<h5>Local San Telmo</h5>
+		<h5>Telf: 11-2345-6781</h5>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.3933234378055!2d-58.37500958481334!3d-34.619499480455396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2b5a5058d3%3A0x71b0966a6209b082!2sMercado%20San%20Telmo!5e0!3m2!1ses!2sar!4v1635051347661!5m2!1ses!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br>
+		<img src="css/m_santelmo.jpg" alt="Mercado de San Telmo" width="300" height="300">
+	</article>
+
+	<!-- Pie de sitio -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<!-- <div class="col"> -->
+				<div>
+					<a href="mailto:hola@cafefrancesca.com.ar"><box-icon name='envelope' type='solid' animation='tada' ><i class='bx bxs-envelope bx-lg bx-tada-hover' ></i></box-icon>					</a>
+					<a href="https://www.instagram.com/cafefrancesca" target="_blank"><box-icon name='instagram' type='logo' animation='tada' ><i class='bx bxl-instagram bx-lg bx-tada-hover' ></i></box-icon></a>
+					<a href="#"><box-icon name='whatsapp' type='logo' animation='tada' ><i 	class='bx bxl-whatsapp bx-lg bx-tada-hover' ></i></box-icon></a>
+					<a href="https://www.facebook.com/cafefrancesca" target="_blank"><box-icon name='facebook-square' type='logo' animation='tada' ><i class='bx bxl-facebook-square bx-lg bx-tada-hover' ></i></box-icon></a>
+					<a href="https://twitter.com/cafe_francesca" target="_blank"><box-icon name='twitter' type='logo' animation='tada' ><i class='bx bxl-twitter bx-lg bx-tada-hover' ></i></box-icon></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+
